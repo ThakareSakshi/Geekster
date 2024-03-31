@@ -1,0 +1,149 @@
+.course-Detail{
+    display: flex;
+    gap:8px;
+    width:486px;
+    align-items: center;
+
+}
+.course-Detail h2{
+min-width:240px;
+font-size: 48px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color:#29B475;
+
+}
+.course-Detail p{
+    font-size: 20px;
+}
+.course{
+    
+    padding: 90px 100px;
+    background-color: #1B2C29;
+    position: relative;
+}
+.course>div>p{
+    width:486px;
+   color: #747D82;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top:10px;
+
+}
+.video{
+    position: absolute;
+    right:96px;
+    height:120%;
+    top:-10%;
+}
+.video img{
+ 
+    width:560px;
+    height:auto
+}
+.video i{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #29B475;
+    padding:7px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.course-Detail h2 > .ai-powered{
+    display: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+@media (max-width:500px) {
+    .video{
+        position: static;
+        width: 90% !important;
+        object-fit: cover;
+    }
+}
+
+@media (max-width:990px) {
+    .video{
+        position: static;
+        width: 90% ;
+        object-fit: cover;
+    }
+    .video img{
+ 
+        width: 100%;
+        height:auto;
+       
+    }
+
+    .course{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        padding:10px;
+    }
+    .course-Detail{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .course-Detail h2{
+        min-width:240px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        color:#29B475;
+        
+        }
+        .course>div>p{
+            
+           color: #747D82;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: center;
+        margin-top:10px;
+        width: auto;
+        
+        }
+        .course-Detail p{
+            font-size: 16px;
+        }
+        #vector{
+            display: none;
+        }
+
+        .course-Detail h2 > .ai-powered{
+            display: inline;
+        }
+        .course-Detail p > .ai-powered{
+            display: none;
+        }
+}
+@media (max-width:1254px){
+
+    .video{
+        position: relative;
+        top:unset;
+        right:unset;
+        width: 40%;
+    }
+    .video img{
+ 
+        width:100%;
+        height:auto
+    }
+    .course {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

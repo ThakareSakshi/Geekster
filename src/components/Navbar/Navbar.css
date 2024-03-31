@@ -1,0 +1,81 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 96px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+    line-height: 18.2px;
+
+
+}
+.navbar ul li{
+    padding:5px 5px;
+}
+.sign-in-wrapper{
+     display: flex ;
+     gap:15px;
+     align-items: center;
+}
+
+.navbar span{
+  color: #29B475;
+
+font-size: 14px;
+font-weight: 600;
+line-height: 18.2px;
+text-align: right;
+
+
+}
+.navbar .book-class-btn{
+   
+font-size: 18px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+background-color: #29B475;
+color:white;
+padding:12px 24px;
+border-radius: 8px;
+
+}
+.active{
+    border-bottom: 3px solid #29B475;
+}
+
+@media (max-width:770px) {
+    .navbar ul{
+        display: none;
+    }
+    #sign-in{
+        display: none;
+
+    }
+    .navbar {
+        padding:8px 8px;
+    }
+    .navbar .book-class-btn{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13px;
+        color:white;
+        padding:12px;
+        border-radius: 8px;
+    }
+}
+@media (max-width:1132px) {
+    .navbar ul{
+        display: none;
+    }
+    #sign-in{
+        display: none;
+
+    }
+}

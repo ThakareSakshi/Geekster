@@ -1,0 +1,26 @@
+[
+    {
+        "image":"/bittoo_aggarwal.png",
+        "name":"Bittoo Aggarwal",
+        "position":"Software Development Engineer",
+        "company":"/amazon.png"
+    },
+    {
+        "image":"/vikas-ranjan.png",
+        "name":"Vikas Ranjan",
+        "position":"Software Development Engineer",
+        "company":"/zomato.png"
+    },
+    {
+        "image":"/rajneesh.png",
+        "name":"Rajneesh Kumar",
+        "position":"SWE II",
+        "company":"/google.png"
+    },
+    {
+        "image":"/Ashish.png",
+        "name":"Ashish",
+        "position":"Software Development Engineer",
+        "company":"/uber.png"
+    }
+]

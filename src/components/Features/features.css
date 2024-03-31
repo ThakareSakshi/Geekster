@@ -1,0 +1,143 @@
+.features{
+    padding:96px;
+    background: #015941;
+    color:white;
+    text-align: center;
+    margin:96px 0px;
+}
+
+.features >h1{
+
+font-size: 42px;
+font-weight: 600;
+line-height: 49.6px;
+letter-spacing: -1.6px;
+text-align: center;
+
+}
+.features >p{
+color:rgba(255,255,255,0.5);
+font-size: 24px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: center;
+
+}
+.features-wrapper{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px;
+}
+
+.feature{
+    width: 293px;
+height: 262px;
+gap: 0px;
+border-radius: 16px;
+background-color: rgba(12, 30, 27, 0.8);
+padding:16px;
+text-transform: capitalize;
+
+}
+.feature .heading{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    height:50px
+}
+.feature h4{
+    /* font-family: Outfit; */
+font-size: 16px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.08em;
+text-align: left;
+color:#29B475;
+padding:20px 10px;
+
+}
+.feature li{
+    padding:6px;
+    text-align: left;
+    list-style: none;
+    color:#fbfbfbcb;
+}
+.feature li i{
+    color:#29B475;
+    padding:4px;
+    border-radius: 3px;
+    margin:2px 4px;
+    background-color: rgba(41, 180, 117, 0.1);
+}
+.feature hr{
+   height:1px;
+    border-color:#fbfbfb7a;
+    margin-bottom: 10px;
+    
+}
+
+@media (max-width:770px) {
+    .features{
+        padding:20px;
+        margin:30px 0px;
+    }
+    .features-wrapper{
+        flex-wrap: wrap;
+    }
+    .features >h1{
+
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 32.6px;
+        letter-spacing: -1px;
+        text-align: center;
+        
+        }
+        .features >p{
+        color:rgba(255,255,255,0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.13px;
+        text-align: center;
+        
+        }
+        .feature h4{
+            /* font-family: Outfit; */
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.08em;
+        text-align: left;
+        color:#29B475;
+        padding:20px 10px;
+        
+        }
+        .feature li{
+           font-size: 14px;
+        }
+        .feature li i{
+            color:#29B475;
+            padding:4px;
+            border-radius: 3px;
+            margin:2px 4px;
+            background-color: rgba(41, 180, 117, 0.1);
+        }
+}
+@media (max-width:1258px){
+    .features-wrapper{
+        flex-wrap: wrap;
+        min-width:293px;
+    }
+}
+@media(max-width:350px){
+    .feature{
+        width: 100%;
+        min-width:unset;
+        margin:0px;
+    }
+    .features{
+        padding:10px;
+    }
+}

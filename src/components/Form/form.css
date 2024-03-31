@@ -1,0 +1,114 @@
+.demo-class-form{
+    padding:24px;
+    border-radius: 16px;
+    background-color: white;
+    width: 399px;
+    filter: drop-shadow(-49px 140px 63px #0891635c);
+
+    
+}
+.demo-class-form h1{
+background-color: inherit;
+font-size: 24px;
+font-weight: 400;
+line-height: 30.12px;
+text-align: center;
+color: black;
+padding:10px 0px;
+
+}
+.demo-class-form h1 span{
+ color:#29B475;
+
+}
+.demo-class-form input{
+    width: 100%;
+    padding:12px ;
+    border-radius: 4px;
+    border:none;
+   outline:none;
+   background-color: rgba(0,0,0,0.1);
+   margin:4px;
+}
+.mobile-number-wrapper{
+    display: flex;
+
+}
+.mobile-number-wrapper input:first-child{
+    width:20%;
+    
+}
+.demo-class-form button{
+   border-radius: 8px;
+   width: 100%;
+   padding:12px;
+   background-color: #29B475;
+   color:white;
+   text-align: center;
+   border: none;
+   outline: none;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0.04em;
+   
+   
+
+}
+.demo-class-form img{
+    width: 100%;
+    padding:10px 0px;
+}
+.demo-class-form p{
+    
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0.03em;
+text-align: center;
+color:black;
+
+}
+
+.demo-class-form p span{
+    color:#29B475;
+}
+.book-class-btn2{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 13px;
+    color:white;
+    padding:12px;
+    border:none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #29B475;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width: 75%;
+    margin-top:30px;
+    max-width: 440px;
+}
+#demo-class-btn{
+    display: none;
+    min-width: fit-content;
+}
+@media (max-width:1129px) {
+    .demo-class-form{
+        display: block;
+    }
+
+    #demo-class-btn{
+        display: block;
+    }
+    
+}
+@media (max-width:770px){
+    .demo-class-form{
+         width: 100%;
+        display: none;
+    }
+    
+    
+}

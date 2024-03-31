@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Code Everyday",
+        "features":[
+            "Practioner-led Live Classes",
+            "Booster Revision Sessions",
+            "Full Day Doubt Support"
+        ],
+        "icon":"/developer_mode_tvgreen.png"
+
+    },
+    {
+        "title":"Personalized progress evaluation",
+        "features":[
+            "Weekly Test",
+            "1:1 Mentorship",
+            "Soft-Skills"
+        ],
+        "icon":"/assignment_turned_in.png"
+
+    },
+    {
+        "title":"Interview PrepAration every month ",
+        "features":[
+            "Mock Interviews",
+            "hackathons",
+            "real world project"
+        ],
+        "icon":"/forum.png"
+
+    }
+,{
+    "title":"Intensive Placement Assistance",
+    "features":[
+        "Resume Building",
+        "Interview Preparation",
+        "Job Referrals"
+    ],
+    "icon":"/target.png"
+
+}
+]

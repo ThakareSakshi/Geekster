@@ -1,0 +1,15 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #0C1E1B;
+    color:white;
+}
+
+.background-grid{
+    position: absolute;
+    right:0%;
+    top:500px;
+    z-index: -1;
+}
+

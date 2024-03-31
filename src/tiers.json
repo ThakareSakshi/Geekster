@@ -1,0 +1,42 @@
+[
+    {
+        "student":"/t1.png",
+        "company":"/amazon.png"
+    },
+    {
+        "student":"/t2.png",
+        "company":"/airtel.png"
+    },
+    {
+        "student":"/t3.png",
+        "company":"/oracle.png"
+    },
+    {
+        "student":"/t4.png",
+        "company":"/amazon.png"
+    },
+    {
+        "student":"/t5.png",
+        "company":"/paypal.png"
+    },
+    {
+        "student":"/t6.png",
+        "company":"/amazon.png"
+    },
+    {
+        "student":"/t7.png",
+        "company":"/paypal.png"
+    },
+    {
+        "student":"/t8.png",
+        "company":"/zolo.png"
+    },
+    {
+        "student":"/t9.png",
+        "company":"/shiprocket.png"
+    },{
+        "student":"/t10.png",
+        "company":"/idfcfirst.png"
+    }
+
+]

@@ -1,0 +1,152 @@
+.banner-wrapper{
+    padding:30px 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-wrapper h1{
+ 
+font-size: 48px;
+font-weight: 700;
+line-height: 56.25px;
+text-align: left;
+
+}
+.banner-wrapper h2{
+font-size: 34px;
+font-weight: 700;
+line-height: 39.88px;
+letter-spacing: -0.02em;
+
+
+}
+.banner-wrapper h3{
+  color:#29B475;
+font-size: 20px;
+font-weight: 500;
+line-height: 18px;
+padding:10px 0px;
+margin-top:8px;
+
+
+}
+.banner-wrapper .image-wrapper{
+    display: flex;;
+    align-items: center;
+    gap:20px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+
+.key-point{
+    display: flex;
+    gap:8px;
+    align-items: center;
+    
+    margin:12px 0px;
+    margin-bottom: 15px;
+}
+.key-point p{
+    color:#747D82;
+}
+.banner-wrapper .metrics-wrapper{
+    
+    display: flex;
+    background: #142522;
+    width: fit-content;
+    padding:20px 16px;
+   
+
+}
+.banner-wrapper .metrics-wrapper .metrics{
+    background: #142522;
+    padding:0px 16px;
+    border-right: 1px solid rgb(88, 87, 87);
+    text-align: center;
+}
+.metrics h2{
+    background: #142522;
+    color:#29B475;
+    font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+
+
+}
+.metrics p{
+    background: #142522;
+ color: rgba(255,255,255,0.5); 
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+
+}
+.banner-wrapper .metrics-wrapper .metrics:nth-child(4){
+    border-right: none;
+}
+@media (max-width:1120px) {
+    .banner-wrapper{
+        flex-direction: column;
+        padding:50px 50px;
+        margin:0px;
+        
+    }
+}
+@media (max-width:770px) {
+    .banner-wrapper{
+        flex-direction: column;
+        padding:20px 10px;
+        margin:0px;
+        
+    }
+    .banner-wrapper .metrics-wrapper{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap:14px;
+        margin: 0px;
+       
+    }
+    .banner-wrapper .metrics-wrapper .metrics{
+        border-right: none;
+        padding:12px;
+        ;
+    }
+    .banner-wrapper h1{
+        
+font-size: 38px;
+font-weight: 700;
+line-height: 46.25px;
+text-align: left;
+    }
+    .banner-wrapper h2{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29.88px;
+        letter-spacing: -0.02em;
+        
+        
+        }
+        .banner-wrapper .image-wrapper{
+            display: flex;;
+            align-items: center;
+            gap:10px;
+          
+            margin-bottom: 20px;
+        }
+        .keypoint{
+            margin:0;
+            
+        }
+        .banner-wrapper>div{
+            width: 100%;
+        }
+        .image-wrapper img{
+            width: auto;
+            width: 120px;
+            height:42px;
+        }
+}
+
+
