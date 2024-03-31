@@ -9,6 +9,7 @@ import FullStackCourse from './components/FullStackCourse/FullStackCourse'
 import Features from './components/Features/Features'
 import Team from "./components/Team/Team"
 import HiringCompanies from './components/HiringCompanies/HiringCompanies'
+
 function App() {
   
 
@@ -18,7 +19,7 @@ function App() {
     <Banner/>
     <TopTiers/>
     <div className='background-grid'>
-      <img src="public/background-grid.png"></img>
+      <img src="/background-grid.png"></img>
     </div>
     <FullStackCourse/>
     <Features/>
