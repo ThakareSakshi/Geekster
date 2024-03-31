@@ -54,6 +54,7 @@ padding:10px 0px;
    display: flex;
    align-items: center;
    justify-content: center;
+   cursor: pointer;
    
    
 
@@ -104,6 +105,7 @@ color:black;
 
     #demo-class-btn{
         display: block;
+        cursor: pointer;
     }
     
 }

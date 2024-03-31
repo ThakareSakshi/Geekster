@@ -17,11 +17,17 @@
 }
 .navbar ul li{
     padding:5px 5px;
+    cursor: pointer;
+}
+.navbar ul li:hover{
+    border-bottom:2px solid #29B475;
+    cursor: pointer;
 }
 .sign-in-wrapper{
      display: flex ;
      gap:15px;
      align-items: center;
+     cursor: pointer;
 }
 
 .navbar span{
