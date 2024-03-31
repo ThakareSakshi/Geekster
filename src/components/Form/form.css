@@ -51,6 +51,9 @@ padding:10px 0px;
    font-weight: 500;
    line-height: 20px;
    letter-spacing: 0.04em;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    
    
 
@@ -96,7 +99,7 @@ color:black;
 }
 @media (max-width:1129px) {
     .demo-class-form{
-        display: block;
+        display:none;
     }
 
     #demo-class-btn{

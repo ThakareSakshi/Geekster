@@ -1,5 +1,6 @@
 import React from 'react'
 import "./form.css"
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 const Form = () => {
   return (
@@ -17,7 +18,7 @@ const Form = () => {
            <input type="text" placeholder='Year Of Completion*'/>
            <img src='/robot.png'/>
            <button>
-           Let’s do it
+           Let’s do it <ChevronRightIcon/>
            </button>
            <p>By continuing, you confirm that you have read and agreed to Geekster's <span>Terms of Policy </span>and <span>Privacy Policy</span></p>
         </form>
