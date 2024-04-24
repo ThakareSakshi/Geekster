@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
+
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
@@ -9,6 +10,7 @@ import FullStackCourse from './components/FullStackCourse/FullStackCourse'
 import Features from './components/Features/Features'
 import Team from "./components/Team/Team"
 import HiringCompanies from './components/HiringCompanies/HiringCompanies'
+import Chat from './components/Chat'
 
 function App() {
   
@@ -26,6 +28,9 @@ function App() {
 
     <Team/>
     <HiringCompanies/>
+    <div className='chatbot'>
+      <Chat/>
+    </div>
       
     </>
   )
